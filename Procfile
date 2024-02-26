@@ -1,1 +1,2 @@
-web: gunicorn college_management_system.wsgi
+release: python manage.py migrate
+web: gunicorn HomeServiceManagement.wsgi
